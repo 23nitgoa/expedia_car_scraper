@@ -1,0 +1,11 @@
+[
+  {
+    "pickup_location": "San Francisco",
+    "pickup_label_contains": "San Francisco",
+    "dropoff_location": "Los Angeles",
+    "dropoff_label_contains": "Los Angeles",
+    "pickup_date": "Monday, June 2, 2025",
+    "dropoff_date": "Wednesday, June 4, 2025",
+    "domain": "expedia.com"
+  }
+]
