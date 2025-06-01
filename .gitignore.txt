@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+venv/
+env/
+
+# MySQL or sensitive files
+*.sql
+*.db
+*.jar
+
+# JSON or local data
+car_data.json
+config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode and IDEs
+.vscode/
+.idea/
