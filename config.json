@@ -1,11 +1,26 @@
-[
+{
+  "locations": [
+    {
+      "pickup_branch": "New York Airport",
+      "dropoff_branch": "New York Airport"
+    },
+    {
+      "pickup_branch": "Chicago",
+      "dropoff_branch": "Chicago"
+    }
+  ],
+  "rental_sources": [
+    {
+      "name": "Expedia",
+      "enabled": true,
+      "domain": "expedia.com"
+    }
+  ],
+  "scraper_config": [
   {
-    "pickup_location": "San Francisco",
-    "pickup_label_contains": "San Francisco",
-    "dropoff_location": "Los Angeles",
-    "dropoff_label_contains": "Los Angeles",
-    "pickup_date": "Monday, June 2, 2025",
-    "dropoff_date": "Wednesday, June 4, 2025",
-    "domain": "expedia.com"
-  }
-]
+    "scrape_horizon_days": 2,
+    "max_rental_duration_days": 1,
+    "scrape_start_offset_days": 1
+  } 
+  ]
+}
