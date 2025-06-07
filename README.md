@@ -32,10 +32,6 @@ python insert_into_mysql.py
     {
       "pickup_branch": "New York Airport",
       "dropoff_branch": "New York Airport"
-    },
-    {
-      "pickup_branch": "Chicago",
-      "dropoff_branch": "Chicago"
     }
   ],
   "rental_sources": [
