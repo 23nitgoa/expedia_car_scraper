@@ -7,16 +7,15 @@
   ],
   "rental_sources": [
     {
-      "name": "Expedia",
-      "enabled": true,
-      "domain": "expedia.com"
+      "domain": "expedia.nl",
+      "enabled": true
     }
   ],
   "scraper_config": [
-  {
-    "scrape_horizon_days": 2,
-    "max_rental_duration_days": 1,
-    "scrape_start_offset_days": 1
-  } 
+    {
+      "scrape_horizon_days": 0,
+      "max_rental_duration_days": 0,
+      "scrape_start_offset_days": 0
+    }
   ]
 }
